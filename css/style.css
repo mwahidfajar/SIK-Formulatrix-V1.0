@@ -611,7 +611,7 @@
 	.resume-col {
 		position: relative;
 		min-height: 1px;
-		width: 75%;
+		width: 85%;
 		float: left;
 		padding-left: 40px;
 		padding-right: 40px;
@@ -686,7 +686,7 @@
 	.te-black:before { background-color: #262626; }
 	
 	.event-date {
-		font-family: 'Raleway', Arial, sans-serif;
+		font-family: 'Montserrat', Arial, sans-serif;
 		font-weight: 600;
 		font-size: 12px;
 		letter-spacing: 0.1em;
@@ -976,297 +976,6 @@
 	}
 
 /* ----------------------------------------------------------------------------- */
-/* --- 5.  BLOG
-/* ----------------------------------------------------------------------------- */
-
-	#header {
-		padding: 7px 0;
-		background-color: #fff;
-	}
-
-	#header.sticky {
-		position: fixed;
-		top: 0;
-		left: 0;
-		right: 0;
-		z-index: 500;
-		padding-left: 40px;
-		padding-right: 40px;
-	}
-
-	#header .btn {
-		margin-right: 7px;
-	}
-
-	#header span {
-		font-weight: 600;
-		font-family: 'Raleway';
-	}
-
-	#header .header-text {
-		position: relative;
-		top: 5px;		
-	}
-
-	#header .title {
-		font-weight: 700;
-		font-size: 12px;
-	}
-
-	#header .caption {
-		font-size: 11px;
-		margin-left: 2px;
-	}
-
-	#content {
-		padding-top: 40px;
-	}
-
-	/* Post Slider
-	--------------------------------------*/
-
-	.post-slider {
-		position: relative;
-	}
-
-	.post-slide-photo {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		z-index: 1;
-	}
-
-	.post-slide-photo:after {
-		position: absolute;
-		bottom: 0;
-		right: 0;
-		left: 0;
-		height: 30%;
-		background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%); /* FF3.6+ */
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
-		background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* IE10+ */
-		background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* W3C */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
-		content: ' ';
-	}
-
-	.post-slide-content {
-		position: relative;
-		padding: 250px 10px;
-		z-index: 2;
-	}
-
-	/* Post List
-	--------------------------------------*/
-
-	.blog-post-list .post {
-		margin-bottom: 50px;
-	}
-
-	.post .post-image {
-		margin-bottom: 30px;
-		-webkit-box-shadow: 10px 10px 0px 0px rgba(243,243,243,1);
-		-moz-box-shadow: 10px 10px 0px 0px rgba(243,243,243,1);
-		box-shadow: 10px 10px 0px 0px rgba(243,243,243,1);
-	}
-
-	.post-category {
-		margin-bottom: 15px;
-	}
-
-	.post-title > * {
-		font-weight: 600;
-	}
-
-	.post-meta {
-		margin-bottom: 15px;
-		font-size: 11px;
-		font-family: "Raleway";
-		text-transform: uppercase;
-		font-weight: 600;
-	}
-
-	.dark .post-meta {
-		color: #fff;
-	}
-
-	.post-meta > span {
-		display: inline-block;
-		border-right: 1px solid rgb(229, 229, 229);
-		padding-right: 12px;
-		margin-right: 12px;
-	}
-
-	.post-meta > span:last-child {
-		border-right: none;
-		padding-right: 0px;
-		margin-right: 0px;
-	}
-
-	.dark .post-meta > span {
-		border-color: rgba(255,255,255,0.2);
-	}
-
-	.post-meta > span > i {
-		color: #c4c4c4;
-	}
-
-	.dark .post-meta > span > i {
-		color: rgba(255,255,255,0.3);
-	}
-
-	.post-content {
-		margin-left: 40px;
-	}
-
-	/* Comments */
-
-	.comments {
-		margin-bottom: 30px;
-	}
-
-	.comments,
-	.comments ul {
-		list-style: none;
-		padding: 0;
-	}
-
-	.comments ul {
-		margin-top: 20px;
-		padding-top: 20px;
-		padding-left: 95px;
-	}
-	
-	.comments li {
-		margin-bottom: 25px;
-	}
-
-	.comments li:last-child {
-		margin-bottom: 0;
-	}
-
-	.comment-avatar {
-		float: left;
-		width: 65px;
-		height: 65px;
-		-webkit-border-radius: 2px;
-		-moz-border-radius: 2px;
-		border-radius: 2px;
-		overflow: hidden;
-	}
-
-	.comment-avatar img {
-		-webkit-border-radius: 2px;
-		-moz-border-radius: 2px;
-		border-radius: 2px;
-	}
-
-    .comment-content {
-		padding-left: 95px;
-	}
-
-	.comment-head {
-		margin-bottom: 15px;
-	}
-
-	.comment-text {	
-		padding: 15px;
-		border: 2px solid #e5e5e5;
-		margin-bottom: 15px;
-	}
-
-	.comment-title {
-		padding-right: 100px;
-	}	
-
-	/* Widgets
-	--------------------------------------*/
-
-	.widget {
-		margin-bottom: 40px;
-	}
-
-	.widget .title-bar {
-		margin-bottom: 20px;
-	}
-
-	/* Recent Posts */
-
-	ul.recent-posts {
-		list-style: none;
-		padding: 0;
-		margin: 0;
-	}
-
-	ul.recent-posts li {
-		padding: 15px 0;
-		border-bottom: 1px solid #e5e5e5;
-	}
-
-	ul.recent-posts li:last-child {
-		border-bottom: none;
-	}
-
-	ul.recent-posts li .post-image {
-		width: 80px;
-		float: left;
-	}
-
-	ul.recent-posts li .post-content {
-		margin-left: 95px;
-	}
-
-	ul.recent-posts li .post-content .post-title {
-		display: block;
-		font-size: 13px;
-		line-height: 14px;
-	}
-
-	ul.recent-posts li .post-content .post-date {
-		font-size: 11px;
-		color: #888888;
-		font-family: "Raleway";
-	}
-
-	/* Twitter Feed */
-
-	.tweet_list {
-		list-style: none;
-		margin: 0;
-		padding: 0;
-	}
-
-	.tweet_list > li {
-		position: relative;
-		margin-bottom: 15px;
-		padding-bottom: 15px;
-		padding-left: 30px;
-		border-bottom: 1px solid #e5e5e5;
-	}
-
-	.tweet_list > li:last-child {
-		border-bottom: none;
-	}
-
-	.tweet_list > li:before {
-		font-family: 'FontAwesome';
-		position: absolute;
-		top: 0;
-		left: 6px;
-		content: '\f099';
-		font-size: 15px;
-	}
-
-	.tweet_time {
-		color: #7D7D7D;
-	}
-
-
-
-/* ----------------------------------------------------------------------------- */
 /* --- 6.  ELEMENTS
 /* ----------------------------------------------------------------------------- */
 
@@ -1355,55 +1064,6 @@
 		padding: 15px 36px;
 		font-size: 12px;
 	}
-
-	/* Forms */
-
-	input, textarea {
-		-webkit-appearance:none; 
-	}
-
-	.form-control {
-		height: 40px;
-		-webkit-border-radius: 0;
-		-moz-border-radius: 0;
-		border-radius: 0;
-		border: 2px solid #e5e5e5;
-		font-size: 12.5px;
-		-webkit-box-shadow: none;
-		-moz-box-shadow: none;
-		box-shadow: none;
-	}
-
-	.form-control:focus {
-		-webkit-box-shadow: none;
-		-moz-box-shadow: none;
-		box-shadow: none;
-	}
-
-	.input-lg, .form-group-lg .form-control {
-	    height: 58px;
-	    -webkit-border-radius: 0px;
-		-moz-border-radius: 0px;
-		border-radius: 0px;
-	}
-
-	.input-sm, .form-group-sm .form-control {
-	    height: 30px;
-	    -webkit-border-radius: 0px;
-		-moz-border-radius: 0px;
-		border-radius: 0px;
-	}
-
-	label.error {
-		font-family: "Raleway";
-		font-size: 10.5px;
-		font-weight: 600;
-		text-transform: uppercase;
-		background-color: #e5e5e5;
-		display: block;
-		padding: 0px 14px 2px;
-	}
-
 	/* Progress Bars */
 
 	.progress {
@@ -1701,68 +1361,6 @@
 		color: inherit;
 	}
 
-	/* Accordion */
-
-	.panel-group .panel {
-		-webkit-border-radius: 0;
-		-moz-border-radius: 0;
-		border-radius: 0;
-		border-bottom-width: 2px;
-		border-color: #e5e5e5;
-	}
-
-	.panel {
-		border-width: 2px;
-		-webkit-box-shadow: none;
-		-moz-box-shadow: none;
-		box-shadow: none;
-	}
-
-	.panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group {
-		border-top-width: 2px;
-		border-top-color: #e5e5e5;
-	}
-
-	.panel-heading {
-		-webkit-border-radius: 0;
-		-moz-border-radius: 0;
-		border-radius: 0;
-		border-bottom-width: 2px;
-	}
-
-	.panel-group .panel-heading {
-		border-bottom-width: 2px;
-	}
-
-	.panel-default > .panel-heading {
-		border-color: #e5e5e5;
-		background: #fff;
-	}
-
-	.panel-title {
-		font-size: 13px;
-	}
-
-	/* Tables */
-
-	.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td,
-	.table > thead > tr > th, .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
-		border-color: #e5e5e5;
-	}
-
-	/* Alerts */
-
-	.alert {
-		-webkit-border-radius: 0;
-		-moz-border-radius: 0;
-		border-radius: 0;
-		font-family: 'Raleway';
-		font-size: 11px;
-		text-transform: uppercase;
-		padding: 5px 10px;
-		border: none;
-	}
-
 	/* Tooltip / Popover */
 
 	.popover {
@@ -1818,7 +1416,7 @@
 /* ----------------------------------------------------------------------------- */
 /* --- 7.  MEDIA QUERIES
 /* ----------------------------------------------------------------------------- */
-
+/*
 	@media only screen and (max-width: 1590px) {
 
 		.middle-container {
@@ -1937,7 +1535,7 @@
 		}
 	
 	}
-	
+	*/
 	@media only screen and (min-width: 768px) and (max-width: 991px) {
 		
 	
