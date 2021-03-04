@@ -452,7 +452,7 @@
 
 	#main-nav {
 		position: relative;
-		padding-left: 30px;
+		padding-left: 75px;
 		padding-right: 30px;
 		height: 100%;
 		width: 460px;
@@ -1836,7 +1836,7 @@
 
 		#main-nav {
 			width: 380px;
-			padding-left: 15px;
+			padding-left: 75px;
 			padding-right: 15px;
 		}
 
