@@ -559,11 +559,7 @@
 
 	#mobile-intro {
 		position: relative;
-		/*padding: 30px 20px;*/
-		padding-top: 70px;
-		padding-bottom: 10px;
-		padding-right: 30px;
-		padding-left: 30px;
+		padding: 30px 20px;
 		text-align: center;
 		background-color: #fff;
 		min-height: 25%;
@@ -1623,7 +1619,7 @@
 
 		.home-content {
 			width: 100%;
-			height: 60%;
+			height: 50%;
 		}
 
 		#btn-start {
