@@ -616,7 +616,7 @@ sup {
   .fp-section.color-2 {
     background: #263248 !important; }
   .fp-section.color-3 {
-    background: #441f1f !important; }
+    background: rgb(27, 27, 27) !important; }
 
 .inside-section {
   position: relative;
