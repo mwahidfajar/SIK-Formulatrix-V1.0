@@ -31,7 +31,7 @@ Description: Personal Portfolio & Resume HTML Template
 body {
   color: #888;
   background-color: #fafafa;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   line-height: 1.7;
   overflow-x: hidden;
@@ -78,7 +78,7 @@ img {
 /*=================================================================*/
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   margin: 20px 0;
 }
@@ -267,7 +267,7 @@ header .site-slogan {
 }
 header .vertical-menu {
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -291,7 +291,7 @@ header .vertical-menu li a:hover {
 }
 header .vertical-menu li a.active:before {
   content: "";
-  background: #FF5959;
+  background: #f7a246;
   display: block;
   height: 18px;
   left: -30px;
@@ -1002,7 +1002,7 @@ section.padding-60 {
 /*=================================================================*/
 .btn {
   border-radius: 100px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 400;
   overflow: hidden;
