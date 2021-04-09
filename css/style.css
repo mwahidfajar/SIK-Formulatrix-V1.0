@@ -172,7 +172,7 @@ header.left {
   color: #FFF;
   background: #414042;
   border-radius: 20px;
-  min-height: 620px;
+  min-height: 500px;
   max-height: 620px;
   top: 50px;
   overflow: hidden;
@@ -397,7 +397,7 @@ main.content.push {
 }
 
 .hero {
-  height: 350px;
+  height: 150px;
   margin-top: 0;
   
 }
@@ -408,7 +408,7 @@ main.content.push {
 }
 .hero .cta h1 {
   color: #FFF;
-  font-size: 60px;
+  font-size: 25px;
   line-height: 0.7;
 }
 .hero .cta h1 .dot:after {
@@ -1696,4 +1696,12 @@ section.padding-60 {
   }
 }
 
+.label {
+  color: white;
+  padding: 8px;
+  font-family: Montserrat;
+  width: 100%;
+}
+
+.success {background-color: #4CAF50;}
 /*# sourceMappingURL=style.css.map */
