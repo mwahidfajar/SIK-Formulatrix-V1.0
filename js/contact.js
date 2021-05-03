@@ -7,7 +7,6 @@ $(function () {
 
     $('#contact-form').validator();
 
-
     // when the form is submitted
     $('#contact-form').on('submit', function (e) {
 
