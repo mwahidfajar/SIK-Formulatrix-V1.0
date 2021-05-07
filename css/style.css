@@ -398,13 +398,13 @@ main.content.push {
 }
 
 .hero {
-  height: 150px;
+  height: 300px;
   margin-top: 0;
   
 }
 .hero .cta {
   color: #FFF;
-  max-width: 600px;
+  /* max-width: 600px; */
   z-index: 1;
 }
 .hero .cta h1 {
