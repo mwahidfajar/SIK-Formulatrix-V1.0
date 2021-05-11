@@ -945,7 +945,7 @@ section.padding-60 {
 .overlay {
   border-radius: 20px;
   /* background: #414042; */
-  background-image: linear-gradient(to right, #e88c40 , #f7a246);
+  background-image: linear-gradient(to right, #292929 , #404040);
   left: 0;
   top: 0;
   opacity: 0.9;
