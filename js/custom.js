@@ -202,7 +202,7 @@ $(function(){
         handler: function(direction) {
           
           $('.progress-bar').each(function() {
-            var bar_value = $(this).attr('aria-valuenow') + '%';                
+            var bar_value = $(this).attr('aria-valuenow') + '%';
             $(this).animate({ width: bar_value }, { easing: 'linear' });
           });
 
