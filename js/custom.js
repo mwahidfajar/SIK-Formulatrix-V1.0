@@ -43,6 +43,7 @@ $(window).on("load",function(){
     /*=========================================================================
      Infinite Scroll
      =========================================================================*/
+  
     var curPage = 1;
     var pagesNum = $(".portfolio-pagination").find("li a:last").text();   // Number of pages
 
@@ -268,5 +269,6 @@ $(function(){
             scrollTop : 0                       // Scroll to top of body
         }, 400);
     });
+    thiid
 
 });
